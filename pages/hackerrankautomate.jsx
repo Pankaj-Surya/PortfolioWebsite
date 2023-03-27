@@ -26,7 +26,7 @@ const hackerrankautomate = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using javascript, Nodejs, and Puppteer.
+            This app was built using javascript Nodejs and Puppteer.
             It is an automation script that takes topic name, question name and code as an input and submit that code to hackerrank.
             Puppeteer and its functions were used to interacts with the browser to automate it.async await was used to automate the tasks
           </p>
