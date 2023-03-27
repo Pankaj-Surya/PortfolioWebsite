@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import likedin from '../public/assets/projects/likedinClone.png'
+import likedin from '../public/assets/projects/likedinCloneImg.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
