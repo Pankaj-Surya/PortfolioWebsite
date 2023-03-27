@@ -93,8 +93,7 @@ const Projects = () => {
                     {
             
                         items.map((item, idx) => (
-                             <>
-                             {/* {console.log(item) } */}
+                             
                             <ProjectItem
                                 key={idx}
                                 title={item.title}
@@ -103,8 +102,7 @@ const Projects = () => {
                                 tech={item.tech}
                                 />
 
-                            </>
-                        ))
+                                                  ))
                     }
                 </div>
             </div>

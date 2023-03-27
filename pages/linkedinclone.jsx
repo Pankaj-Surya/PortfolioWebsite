@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import likedinClone from '../public/assets/projects/likedinClone.png'
+import likedin from '../public/assets/projects/likedinClone.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const likedinClone = () => {
+const likedinclone = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -12,7 +12,7 @@ const likedinClone = () => {
         <Image
           className='absolute z-1'
           fill
-          src={likedinClone}
+          src={likedin}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -88,4 +88,4 @@ const likedinClone = () => {
   );
 };
 
-export default likedinClone;
+export default likedinclone;
