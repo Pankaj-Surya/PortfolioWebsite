@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill, BsToggleOn, BsToggleOff } from 'react-icons/bs';
-import NavLogo from '../public/assets/pLogo.png'
+import NavLogo from '../public/static/images/assets/pLogo.png'
 import { useRouter } from 'next/router';
 
 const Navbar = ({ darkMode, setDarkMode }) => {

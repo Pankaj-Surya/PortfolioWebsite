@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import hackerrank from '../public/assets/projects/hackerrank.png'
+import hackerrank from '../public/static/images/assets/projects/hackerrankImg.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import IMDbClone from '../public/assets/projects/IMDbClone.png'
+import IMDbClone from '../public/static/images/assets/projects/IMDbCloneImg.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

@@ -1,56 +1,56 @@
 import React, { useEffect, useState } from 'react';
 import ProjectItem from './ProjectItem'
-import YouTubeClone from "../public/assets/projects/YouTubeClone.png"
-import IMDbClone from "../public/assets/projects/IMDbClone.png"
-import AirBnbClone from "../public/assets/projects/AirBnbClone.png"
-import TodoApp from "../public/assets/projects/TodoApp.png"
-import FileManager from "../public/assets/projects/FileManager.png"
+// import YouTubeClone from "../public/static/images/assets/projects/YouTubeClone.png"
+// import IMDbClone from "../public/static/images/assets/projects/IMDbClone.png"
+// import AirBnbClone from "../public/static/images/assets/projects/AirBnbClone.png"
+// import TodoApp from "../public/static/images/assets/projects/TodoApp.png"
+// import FileManager from "../public/static/images/assets/projects/FileManager.png"
 
 const Projects = () => {
    
     let projects = [
         {
             title: 'File Manager',
-            backgroundImg: "/../public/assets/projects/FileManager.png",
+            backgroundImg: "/../public/static/images/assets/projects/FileManager.png",
             projectUrl: '/filemanager',
             tech: 'Node'
         },
         {
             title: 'HackerRank Automation',
-            backgroundImg: "/../public/assets/projects/YouTubeClone.png",
-            projectUrl: '/youtubeclone',
+            backgroundImg: "/../public/static/images/assets/projects/hackerrankImg.jpg",
+            projectUrl: '/hackerrankautomate',
             tech: 'MERN'
         },
         {
             title: 'YouTube Clone',
-            backgroundImg: "/../public/assets/projects/YouTubeClone.png",
+            backgroundImg: "/../public/static/images/assets/projects/YouTubeCloneImg.jpg",
             projectUrl: '/youtubeclone',
             tech: 'MERN'
         },
         {
             title: 'Excel Clone',
-            backgroundImg: "/../public/assets/projects/excelClone.jpg",
+            backgroundImg: "/../public/static/images/assets/projects/excelClone.jpg",
             projectUrl: '/excelclone',
             tech: 'DOM'
         },
         {
             title: 'IMDb Clone',
-            backgroundImg: "/../public/assets/projects/IMDbClone.png",
+            backgroundImg: "/../public/static/images/assets/projects/IMDbClone.png",
             projectUrl: '/imdbclone',
             tech: 'React'
         },
         {
             title: 'Linkedin Clone',
-            backgroundImg: "/../public/assets/projects/linkedinClone.jpg",
+            backgroundImg: "/../public/static/images/assets/projects/linkedinCloneImg.jpg",
             projectUrl: '/linkedinClone',
             tech: 'React'
         },    
-        {
-            title: 'YouTube Clone',
-            backgroundImg: "/../public/assets/projects/YouTubeClone.png",
-            projectUrl: '/youtubeclone',
-            tech: 'MERN'
-        },
+        // {
+        //     title: 'YouTube Clone',
+        //     backgroundImg: "/../public/static/images/assets/projects/YouTubeClone.png",
+        //     projectUrl: '/youtubeclone',
+        //     tech: 'MERN'
+        // },
       
       
     ]

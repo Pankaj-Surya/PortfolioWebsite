@@ -1,18 +1,18 @@
 import React from 'react';
 import SkillItem from './SkillItem';
-import HTML from '../public/assets/skills/html.png'
-import HTMLDARK from '../public/assets/skills/htmldark.png'
-import CSS from '../public/assets/skills/css.png'
-import JAVASCRIPT from '../public/assets/skills/javascript.png'
-import REACT from '../public/assets/skills/react.png'
-import NODE from '../public/assets/skills/node.png'
-import MONGODB from '../public/assets/skills/mongo.png'
-import REDUX from '../public/assets/skills/reduxToolkit.png'
-import FIREBASE from '../public/assets/skills/firebase.png'
-import TAILWIND from '../public/assets/skills/tailwind.png'
-import NEXT from '../public/assets/skills/nextjs.png'
-import GITHUB from '../public/assets/skills/github.png'
-import MYSQL from '../public/assets/skills/MySql.png'
+import HTML from '../public/static/images/assets/skills/html.png'
+import HTMLDARK from '../public/static/images/assets/skills/htmldark.png'
+import CSS from '../public/static/images/assets/skills/css.png'
+import JAVASCRIPT from '../public/static/images/assets/skills/javascript.png'
+import REACT from '../public/static/images/assets/skills/react.png'
+import NODE from '../public/static/images/assets/skills/node.png'
+import MONGODB from '../public/static/images/assets/skills/mongo.png'
+import REDUX from '../public/static/images/assets/skills/reduxToolkit.png'
+import FIREBASE from '../public/static/images/assets/skills/firebase.png'
+import TAILWIND from '../public/static/images/assets/skills/tailwind.png'
+import NEXT from '../public/static/images/assets/skills/nextjs.png'
+import GITHUB from '../public/static/images/assets/skills/github.png'
+import MYSQL from '../public/static/images/assets/skills/MySql.png'
 
 const Skills = () => {
     return (

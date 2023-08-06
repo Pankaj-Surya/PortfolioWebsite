@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import TodoApp from '../public/assets/projects/TodoApp.png'
+import TodoApp from '../public/static/images/assets/projects/TodoApp.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

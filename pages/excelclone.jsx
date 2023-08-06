@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import ExcelClone from '../public/assets/projects/excelClone.jpg'
+import ExcelClone from '../public/static/images/assets/projects/excelCloneImg.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

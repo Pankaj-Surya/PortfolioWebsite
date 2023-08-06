@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import FileManager from '../public/assets/projects/FileManager.png'
+import FileManager from '../public/static/images/assets/projects/FileManagerImg.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import YouTubeClone from '../public/assets/projects/YouTubeClone.png'
+//import YoutubeCloneImage from '../public/static/images/assets/projects/YouTubeImg.jpg'
+import YoutubeCloneImage from '../public/static/images/assets/projects/YoutubeCloneImg.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -9,10 +10,10 @@ const youtubeclone = () => {
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
-        <Image
+        <img
           className='absolute z-1'
-          fill
-          src={YouTubeClone}
+          fill='true'
+          src={YoutubeCloneImage}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
